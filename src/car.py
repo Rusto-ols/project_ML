@@ -8,8 +8,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, r2_score, mean_squared_error
 from sklearn.linear_model import LinearRegression, Lasso
 
-pd.set_option('display.max_rows', None)     # показывать все строки
-pd.set_option('display.max_columns', None)  # показывать все столбцы
+pd.set_option('display.max_rows', None)     
+pd.set_option('display.max_columns', None) 
 pd.set_option('display.width', None)
 pd.set_option('future.no_silent_downcasting', True)
 
@@ -43,3 +43,4 @@ plt.xlabel('Actual Price')
 plt.ylabel('Predicted Price')
 plt.title('Actual vs Predicted Prices')
 plt.show()
+
