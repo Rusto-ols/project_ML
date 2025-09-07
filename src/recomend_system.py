@@ -10,8 +10,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 import pickle
 
 
-pd.set_option('display.max_rows', None)  # показывать все строки
-pd.set_option('display.max_columns', None)  # показывать все столбцы
+pd.set_option('display.max_rows', None)  
+pd.set_option('display.max_columns', None) 
 pd.set_option('display.width', None)
 
 movie_data = pd.read_csv('../artifacts/tmdb_5000_movies.csv')
